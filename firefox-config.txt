@@ -1,0 +1,4 @@
+{
+browser.tabs.closeWindowWithLastTab: false,
+browser.tabs.loadBookmarksInTabs: true,
+}
