@@ -1,5 +1,5 @@
 {
 browser.tabs.closeWindowWithLastTab: false,
 browser.tabs.loadBookmarksInTabs: true,
-media.block-autoplay-until-in-foreground: false
+media.autoplay.default: 0
 }
