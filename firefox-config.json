@@ -1,3 +1,5 @@
+// URL: about:config 
+
 {
 browser.tabs.closeWindowWithLastTab: false,
 browser.tabs.loadBookmarksInTabs: true,
