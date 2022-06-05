@@ -1,2 +1,1 @@
-# legendary-config-tree
-URL->  about:config
+Config Backup
