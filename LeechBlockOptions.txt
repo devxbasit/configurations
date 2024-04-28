@@ -1,5 +1,5 @@
 setName1=but mummy tab chale gaye hogi
-sites1=ajio.com aljazeera.com amazon.in deccanherald.com flipkart.com greaterkashmir.com hindustantimes.com india.com indianexpress.com indiatimes.com indiatoday.in indiatvnews.com kashmirlife.net kashmirobserver.net linkedin.com livemint.com myntra.com ndtv.com nykaa.com risingkashmir.com shopping.google.com thehindu.com timesofindia.indiatimes.com
+sites1=ajio.com aljazeera.com amazon.in deccanherald.com flipkart.com greaterkashmir.com hindustantimes.com india.com indianexpress.com indiatimes.com indiatoday.in indiatvnews.com kashmirlife.net kashmirobserver.net livemint.com myntra.com ndtv.com nykaa.com risingkashmir.com shopping.google.com thehindu.com timesofindia.indiatimes.com washingtonpost.com
 times1=0000-2400
 limitMins1=
 limitPeriod1=
@@ -41,7 +41,7 @@ regexpAllow1=
 ignoreHash1=true
 numSets=1
 sync=true
-theme=light
+theme=spruce
 oa=1
 hpp=true
 apt=
