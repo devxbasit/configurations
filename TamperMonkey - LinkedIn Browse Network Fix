@@ -1,0 +1,32 @@
+// ==UserScript==
+// @name         New Userscript
+// @namespace    http://tampermonkey.net/
+// @version      2024-05-19
+// @description  try to take over the world!
+// @author       You
+// @match        https://www.linkedin.com/*
+// @icon         https://www.google.com/s2/favicons?sz=64&domain=linkedin.com
+// @grant        none
+// ==/UserScript==
+
+(function() {
+    'use strict';
+
+    // Your code here...
+
+    window.navigation.addEventListener("navigate", (event) => {
+
+        if(event.destination.url === 'https://www.linkedin.com/mynetwork/'){
+
+            debugger;
+
+            setTimeout(function() {
+                document.getElementsByTagName('main')[0].remove()
+
+            }, 8000);
+
+
+        }
+    });
+
+})();
