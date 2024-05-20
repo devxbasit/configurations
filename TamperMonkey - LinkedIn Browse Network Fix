@@ -20,10 +20,11 @@
 
             debugger;
 
-            setTimeout(function() {
-                document.getElementsByTagName('main')[0].remove()
-
-            }, 8000);
+             setTimeout(function() { document.getElementsByTagName('main')[0].remove() }, 1000);
+            setTimeout(function() { document.getElementsByTagName('main')[0].remove() }, 1500);
+            setTimeout(function() { document.getElementsByTagName('main')[0].remove() }, 2000);
+            setTimeout(function() { document.getElementsByTagName('main')[0].remove() }, 2500);
+            setTimeout(function() { document.getElementsByTagName('main')[0].remove() }, 3000);
 
 
         }
