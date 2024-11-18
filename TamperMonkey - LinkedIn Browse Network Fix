@@ -16,13 +16,13 @@
 
     function removeNodes(){
 
-		// don't delete first 3 sections
-		let sectionCount = 3;
+		// don't delete the first 3 sections
+		const sectionCount = 3;
 
 		if(document.querySelectorAll('main section').length <= sectionCount) return;
 
 		console.log('removing nodes...')
-        document.querySelectorAll('main section').forEach((el, index) => { if(index >= sectionCount) el.remove(); })
+        	document.querySelectorAll('main section').forEach((el, index) => { if(index >= sectionCount) el.remove(); })
 
     }
 
