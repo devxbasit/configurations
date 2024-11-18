@@ -14,84 +14,97 @@
 
     // Your code here...
 
+    function removeNodes(){
+
+		// don't delete first 3 sections
+		let sectionCount = 3;
+
+		if(document.querySelectorAll('main section').length <= sectionCount) return;
+
+		console.log('removing nodes...')
+        document.querySelectorAll('main section').forEach((el, index) => { if(index >= sectionCount) el.remove(); })
+
+    }
+
+
     window.navigation.addEventListener("navigate", (event) => {
 
-        if(event.destination.url === 'https://www.linkedin.com/mynetwork/grow/'){
+        if(event.destination.url.includes('https://www.linkedin.com/mynetwork/grow/')){
 
-            debugger;
+		console.log('Target Url Matches');
 
-          setTimeout(function() { document.querySelectorAll('main > .artdeco-card')[2].remove()}, 100);
-setTimeout(function() { document.querySelectorAll('main > .artdeco-card')[2].remove()}, 200);
-setTimeout(function() { document.querySelectorAll('main > .artdeco-card')[2].remove()}, 300);
-setTimeout(function() { document.querySelectorAll('main > .artdeco-card')[2].remove()}, 400);
-setTimeout(function() { document.querySelectorAll('main > .artdeco-card')[2].remove()}, 500);
-setTimeout(function() { document.querySelectorAll('main > .artdeco-card')[2].remove()}, 600);
-setTimeout(function() { document.querySelectorAll('main > .artdeco-card')[2].remove()}, 700);
-setTimeout(function() { document.querySelectorAll('main > .artdeco-card')[2].remove()}, 800);
-setTimeout(function() { document.querySelectorAll('main > .artdeco-card')[2].remove()}, 900);
-setTimeout(function() { document.querySelectorAll('main > .artdeco-card')[2].remove()}, 1000);
+		setTimeout(function() { removeNodes()}, 100);
+		setTimeout(function() { removeNodes()}, 200);
+		setTimeout(function() { removeNodes()}, 300);
+		setTimeout(function() { removeNodes()}, 400);
+		setTimeout(function() { removeNodes()}, 500);
+		setTimeout(function() { removeNodes()}, 600);
+		setTimeout(function() { removeNodes()}, 700);
+		setTimeout(function() { removeNodes()}, 800);
+		setTimeout(function() { removeNodes()}, 900);
+		setTimeout(function() { removeNodes()}, 1000);
 
-setTimeout(function() { document.querySelectorAll('main > .artdeco-card')[2].remove()}, 1100);
-setTimeout(function() { document.querySelectorAll('main > .artdeco-card')[2].remove()}, 1200);
-setTimeout(function() { document.querySelectorAll('main > .artdeco-card')[2].remove()}, 1300);
-setTimeout(function() { document.querySelectorAll('main > .artdeco-card')[2].remove()}, 1400);
-setTimeout(function() { document.querySelectorAll('main > .artdeco-card')[2].remove()}, 1500);
-setTimeout(function() { document.querySelectorAll('main > .artdeco-card')[2].remove()}, 1600);
-setTimeout(function() { document.querySelectorAll('main > .artdeco-card')[2].remove()}, 1700);
-setTimeout(function() { document.querySelectorAll('main > .artdeco-card')[2].remove()}, 1800);
-setTimeout(function() { document.querySelectorAll('main > .artdeco-card')[2].remove()}, 1900);
+		setTimeout(function() { removeNodes()}, 1100);
+		setTimeout(function() { removeNodes()}, 1200);
+		setTimeout(function() { removeNodes()}, 1300);
+		setTimeout(function() { removeNodes()}, 1400);
+		setTimeout(function() { removeNodes()}, 1500);
+		setTimeout(function() { removeNodes()}, 1600);
+		setTimeout(function() { removeNodes()}, 1700);
+		setTimeout(function() { removeNodes()}, 1800);
+		setTimeout(function() { removeNodes()}, 1900);
 
-setTimeout(function() { document.querySelectorAll('main > .artdeco-card')[2].remove()}, 2100);
-setTimeout(function() { document.querySelectorAll('main > .artdeco-card')[2].remove()}, 2200);
-setTimeout(function() { document.querySelectorAll('main > .artdeco-card')[2].remove()}, 2300);
-setTimeout(function() { document.querySelectorAll('main > .artdeco-card')[2].remove()}, 2400);
-setTimeout(function() { document.querySelectorAll('main > .artdeco-card')[2].remove()}, 2500);
-setTimeout(function() { document.querySelectorAll('main > .artdeco-card')[2].remove()}, 2600);
-setTimeout(function() { document.querySelectorAll('main > .artdeco-card')[2].remove()}, 2700);
-setTimeout(function() { document.querySelectorAll('main > .artdeco-card')[2].remove()}, 2800);
-setTimeout(function() { document.querySelectorAll('main > .artdeco-card')[2].remove()}, 2900);
+		setTimeout(function() { removeNodes()}, 2100);
+		setTimeout(function() { removeNodes()}, 2200);
+		setTimeout(function() { removeNodes()}, 2300);
+		setTimeout(function() { removeNodes()}, 2400);
+		setTimeout(function() { removeNodes()}, 2500);
+		setTimeout(function() { removeNodes()}, 2600);
+		setTimeout(function() { removeNodes()}, 2700);
+		setTimeout(function() { removeNodes()}, 2800);
+		setTimeout(function() { removeNodes()}, 2900);
 
-setTimeout(function() { document.querySelectorAll('main > .artdeco-card')[2].remove()}, 3100);
-setTimeout(function() { document.querySelectorAll('main > .artdeco-card')[2].remove()}, 3200);
-setTimeout(function() { document.querySelectorAll('main > .artdeco-card')[2].remove()}, 3300);
-setTimeout(function() { document.querySelectorAll('main > .artdeco-card')[2].remove()}, 3400);
-setTimeout(function() { document.querySelectorAll('main > .artdeco-card')[2].remove()}, 3500);
-setTimeout(function() { document.querySelectorAll('main > .artdeco-card')[2].remove()}, 3600);
-setTimeout(function() { document.querySelectorAll('main > .artdeco-card')[2].remove()}, 3700);
-setTimeout(function() { document.querySelectorAll('main > .artdeco-card')[2].remove()}, 3800);
-setTimeout(function() { document.querySelectorAll('main > .artdeco-card')[2].remove()}, 3900);
+		setTimeout(function() { removeNodes()}, 3100);
+		setTimeout(function() { removeNodes()}, 3200);
+		setTimeout(function() { removeNodes()}, 3300);
+		setTimeout(function() { removeNodes()}, 3400);
+		setTimeout(function() { removeNodes()}, 3500);
+		setTimeout(function() { removeNodes()}, 3600);
+		setTimeout(function() { removeNodes()}, 3700);
+		setTimeout(function() { removeNodes()}, 3800);
+		setTimeout(function() { removeNodes()}, 3900);
 
-setTimeout(function() { document.querySelectorAll('main > .artdeco-card')[2].remove()}, 4100);
-setTimeout(function() { document.querySelectorAll('main > .artdeco-card')[2].remove()}, 4200);
-setTimeout(function() { document.querySelectorAll('main > .artdeco-card')[2].remove()}, 4300);
-setTimeout(function() { document.querySelectorAll('main > .artdeco-card')[2].remove()}, 4400);
-setTimeout(function() { document.querySelectorAll('main > .artdeco-card')[2].remove()}, 4500);
-setTimeout(function() { document.querySelectorAll('main > .artdeco-card')[2].remove()}, 4600);
-setTimeout(function() { document.querySelectorAll('main > .artdeco-card')[2].remove()}, 4700);
-setTimeout(function() { document.querySelectorAll('main > .artdeco-card')[2].remove()}, 4800);
-setTimeout(function() { document.querySelectorAll('main > .artdeco-card')[2].remove()}, 4900);
-
-
-setTimeout(function() { document.querySelectorAll('main > .artdeco-card')[2].remove()}, 5100);
-setTimeout(function() { document.querySelectorAll('main > .artdeco-card')[2].remove()}, 5200);
-setTimeout(function() { document.querySelectorAll('main > .artdeco-card')[2].remove()}, 5300);
-setTimeout(function() { document.querySelectorAll('main > .artdeco-card')[2].remove()}, 5400);
-setTimeout(function() { document.querySelectorAll('main > .artdeco-card')[2].remove()}, 5500);
-setTimeout(function() { document.querySelectorAll('main > .artdeco-card')[2].remove()}, 5600);
-setTimeout(function() { document.querySelectorAll('main > .artdeco-card')[2].remove()}, 5700);
-setTimeout(function() { document.querySelectorAll('main > .artdeco-card')[2].remove()}, 5800);
-setTimeout(function() { document.querySelectorAll('main > .artdeco-card')[2].remove()}, 5900);
+		setTimeout(function() { removeNodes()}, 4100);
+		setTimeout(function() { removeNodes()}, 4200);
+		setTimeout(function() { removeNodes()}, 4300);
+		setTimeout(function() { removeNodes()}, 4400);
+		setTimeout(function() { removeNodes()}, 4500);
+		setTimeout(function() { removeNodes()}, 4600);
+		setTimeout(function() { removeNodes()}, 4700);
+		setTimeout(function() { removeNodes()}, 4800);
+		setTimeout(function() { removeNodes()}, 4900);
 
 
-setTimeout(function() { document.querySelectorAll('main > .artdeco-card')[2].remove()}, 6100);
-setTimeout(function() { document.querySelectorAll('main > .artdeco-card')[2].remove()}, 6200);
-setTimeout(function() { document.querySelectorAll('main > .artdeco-card')[2].remove()}, 6300);
-setTimeout(function() { document.querySelectorAll('main > .artdeco-card')[2].remove()}, 6400);
-setTimeout(function() { document.querySelectorAll('main > .artdeco-card')[2].remove()}, 6500);
-setTimeout(function() { document.querySelectorAll('main > .artdeco-card')[2].remove()}, 6600);
-setTimeout(function() { document.querySelectorAll('main > .artdeco-card')[2].remove()}, 6700);
-setTimeout(function() { document.querySelectorAll('main > .artdeco-card')[2].remove()}, 6800);
-setTimeout(function() { document.querySelectorAll('main > .artdeco-card')[2].remove()}, 6900);
+		setTimeout(function() { removeNodes()}, 5100);
+		setTimeout(function() { removeNodes()}, 5200);
+		setTimeout(function() { removeNodes()}, 5300);
+		setTimeout(function() { removeNodes()}, 5400);
+		setTimeout(function() { removeNodes()}, 5500);
+		setTimeout(function() { removeNodes()}, 5600);
+		setTimeout(function() { removeNodes()}, 5700);
+		setTimeout(function() { removeNodes()}, 5800);
+		setTimeout(function() { removeNodes()}, 5900);
+
+
+		setTimeout(function() { removeNodes()}, 6100);
+		setTimeout(function() { removeNodes()}, 6200);
+		setTimeout(function() { removeNodes()}, 6300);
+		setTimeout(function() { removeNodes()}, 6400);
+		setTimeout(function() { removeNodes()}, 6500);
+		setTimeout(function() { removeNodes()}, 6600);
+		setTimeout(function() { removeNodes()}, 6700);
+		setTimeout(function() { removeNodes()}, 6800);
+		setTimeout(function() { removeNodes()}, 6900);
 
         }
 
