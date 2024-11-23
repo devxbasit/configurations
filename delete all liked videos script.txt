@@ -1,0 +1,25 @@
+// Delete all videos on my "Liked Videos" YouTube automatic playlist
+//https://webapps.stackexchange.com/questions/90238/delete-all-videos-on-my-liked-videos-youtube-automatic-playlist
+
+function sleep(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+async function deleteLikedVideos() {
+    'use strict';
+    var items = document.querySelectorAll('#primary ytd-playlist-video-renderer yt-icon-button.dropdown-trigger > button[aria-label]');
+    var out;
+
+    for (var i = 0; i < items.length; i++) {
+        items[i].click();
+        out = setTimeout(function () {
+            if (document.querySelector('tp-yt-paper-listbox.style-scope.ytd-menu-popup-renderer').lastElementChild) {
+                document.querySelector('tp-yt-paper-listbox.style-scope.ytd-menu-popup-renderer').lastElementChild.click();
+            }
+        }, 100);
+        await sleep(1000); // sleep cause browser can not handle the process
+        clearTimeout(out);
+    }
+}
+
+deleteLikedVideos();
