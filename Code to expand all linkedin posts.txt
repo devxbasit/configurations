@@ -1,0 +1,1 @@
+document.querySelectorAll('.see-more').forEach((el) => { el.click() });
