@@ -1,0 +1,8 @@
+otpauth://totp/GitHub:devxbasit?secret=FAA37E4FRXNWECSK&issuer=GitHub
+otpauth://totp/Microsoft:basit.devx%40outlook.com?secret=ECVLDK6TWUHVWU2O&issuer=Microsoft
+otpauth://totp/Google:basit.devx%40gmail.com?secret=bylsqvuc53ridmjb72v6m652xkbxemxg&issuer=Google
+otpauth://totp/Google:basitshafi.dev%40gmail.com?secret=wqwgtzqxfzccge2xhs5iv7vddcd6g5nv&issuer=Google
+otpauth://totp/Mozilla:mailtobasit74%40gmail.com?secret=NNDWI2DWNBME6TKGMJHXESJXKJ3GURCF&issuer=Mozilla
+otpauth://totp/Microsoft:basit774%40hotmail.com?secret=J6YKGLMSXM266VAN&issuer=Microsoft
+otpauth://totp/Google:mailtobasit74%40gmail.com?secret=4mdb3d63qrkxbcsw576sbzswllq56nsr&issuer=Google
+otpauth://totp/Google:devxbasit%40gmail.com?secret=4najnskru5h4vqjdafd3vw4dsix5jatj&issuer=Google
