@@ -1,0 +1,231 @@
+{
+  "prettier.quoteProps": "preserve",
+  "diffEditor.renderIndicators": true,
+  "git.decorations.enabled": true,
+  "editor.codeActionsOnSave": {
+    "source.removeUnusedImports": "never",
+    "source.organizeImports": "never",
+    "source.addMissingImports": "always"
+  },
+
+  "[css]": {
+    "editor.suggest.insertMode": "insert"
+  },
+  "[handlebars]": {
+    "editor.suggest.insertMode": "insert"
+  },
+  "[json]": {
+    "editor.suggest.insertMode": "insert"
+  },
+  "[jsonc]": {
+    "editor.suggest.insertMode": "insert"
+  },
+  "[less]": {
+    "editor.suggest.insertMode": "insert"
+  },
+  "[scss]": {
+    "editor.suggest.insertMode": "insert",
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "console-ninja.featureSet": "Community",
+  "debug.onTaskErrors": "showErrors",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.fontFamily": "'Cascadia Code', Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "editor.guides.bracketPairs": true,
+  "editor.linkedEditing": true,
+  "editor.minimap.maxColumn": 40,
+  "editor.minimap.showSlider": "always",
+  "editor.minimap.size": "fill",
+  "editor.mouseWheelZoom": true,
+  "editor.renderWhitespace": "all",
+  "editor.suggest.showStatusBar": true,
+  "editor.tabCompletion": "on",
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmPasteNative": false,
+  "extensions.ignoreRecommendations": true,
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "projectManager.sortList": "Recent",
+  "security.workspace.trust.untrustedFiles": "open",
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.cursorStyle": "underline",
+  "terminal.integrated.env.linux": {},
+  "update.showReleaseNotes": false,
+  "window.title": "${activeEditorShort}${separator}${rootName} ${separator}${appName}:",
+  "window.titleBarStyle": "custom",
+  "editor.selectionHighlight": true,
+
+  "workbench.colorCustomizations": {
+    "editor.findMatchBackground": "#da08e1",
+    "editor.findMatchForeground": "#fff",
+
+    "editor.findMatchHighlightBackground": "#f00",
+    "editor.findMatchHighlightForeground": "#fff",
+
+    "editor.selectionBackground": "#561566",
+    "editor.selectionHighlightBackground": "#f00",
+
+    "tree.indentGuidesStroke": "#ff0000",
+    "tree.inactiveIndentGuidesStroke": "#00000000",
+
+    "editor.lineHighlightBorder": "#f00",
+
+    "editorBracketMatch.border": "#f00",
+    "editorLineNumber.activeForeground": "#f00",
+
+    "tab.activeBackground": "#7e158b"
+  },
+  "workbench.editor.wrapTabs": true,
+  "workbench.panel.defaultLocation": "left",
+  "workbench.sideBar.location": "right",
+  "workbench.startupEditor": "none",
+  "workbench.tree.indent": 15,
+  "workbench.tree.renderIndentGuides": "always",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "git.openRepositoryInParentFolders": "never",
+  "editor.parameterHints.enabled": true,
+  "[csharp]": {
+    "editor.defaultFormatter": "ms-dotnettools.csharp"
+  },
+  "terminal.integrated.env.windows": {},
+  "window.newWindowProfile": "Default",
+
+  "workbench.externalBrowser": "chrome",
+
+  "peacock.favoriteColors": [
+    {
+      "name": "Angular Red",
+      "value": "#dd0531"
+    },
+    {
+      "name": "Azure Blue",
+      "value": "#007fff"
+    },
+    {
+      "name": "JavaScript Yellow",
+      "value": "#f9e64f"
+    },
+    {
+      "name": "Mandalorian Blue",
+      "value": "#1857a4"
+    },
+    {
+      "name": "Node Green",
+      "value": "#215732"
+    },
+    {
+      "name": "React Blue",
+      "value": "#61dafb"
+    },
+    {
+      "name": "Something Different",
+      "value": "#832561"
+    },
+    {
+      "name": "Svelte Orange",
+      "value": "#ff3d00"
+    },
+    {
+      "name": "Vue Green",
+      "value": "#42b883"
+    }
+  ],
+
+  "editor.smoothScrolling": false,
+  "terminal.integrated.persistentSessionReviveProcess": "never",
+
+  "indentRainbow.indicatorStyle": "classic",
+  "editor.guides.highlightActiveBracketPair": true,
+  "editor.guides.highlightActiveIndentation": "always",
+  "vscode_custom_css.imports": ["file:///C:/Users/basit.shafi/Documents/vs-code-config-for-pretty-ts-errors/pretty-ts-errors-hack.css"],
+  "prettier.printWidth": 500,
+
+  "todo-tree.regex.regexCaseSensitive": false,
+  "todo-tree.highlights.enabled": false,
+
+  "todohighlight.isEnable": true,
+  "todohighlight.isCaseSensitive": false,
+  "todohighlight.keywords": [
+    {
+      "text": "TODO",
+      "color": "red",
+      "border": "1px solid red",
+      "borderRadius": "2px", //NOTE: using borderRadius along with `border` or you will see nothing change
+      "backgroundColor": "rgba(0,0,0,0.2)",
+      "isWholeLine": true
+      //other styling properties goes here ...
+    },
+    {
+      "text": "NOTE",
+      "color": "yellow",
+      "backgroundColor": "rgba(0,0,0,0.2)",
+      "isWholeLine": true
+    },
+    {
+      "text": "HACK",
+      "color": "lime",
+      "backgroundColor": "rgba(0,0,0,0.2)",
+      "isWholeLine": true
+    }
+  ],
+  "git.suggestSmartCommit": false,
+  "debug.inlineValues": "on",
+  "rxjsDebugging.enableUsageAnalytics": false,
+  "debug.autoExpandLazyVariables": "on",
+
+  "emmet.excludeLanguages": ["typescript"],
+  "editor.inlineSuggest.showToolbar": "always",
+
+  "macros.list": {
+    "insertConsoleDotLog": [
+      "editor.action.insertLineBefore",
+      {
+        "command": "editor.action.insertSnippet",
+        "args": {
+          "snippet": "console.log(${1});"
+        }
+      }
+    ],
+
+    "uglifyEscape": [
+      "extension.uglifyJson",
+      {
+        "command": "$delay",
+        "args": {
+          "delay": 50
+        }
+      },
+      "extension.escapeJson"
+    ],
+    "unescapeBeautify": [
+      "extension.unescapeJson",
+      {
+        "command": "$delay",
+        "args": {
+          "delay": 50
+        }
+      },
+      "extension.beautifyJson"
+    ]
+  },
+  "js/ts.implicitProjectConfig.checkJs": true,
+  "editor.autoClosingOvertype": "always",
+  "totalTypeScript.hideAllTips": false,
+  "totalTypeScript.hideBasicTips": false,
+  "debug.openDebug": "neverOpen",
+  "debug.showBreakpointsInOverviewRuler": true,
+  "cSpell.userWords": ["transloco"],
+  "typelens.showReferencesForProperties": false,
+  "diffEditor.renderSideBySide": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Bearded Theme Vivid Purple",
+  "editor.formatOnSave": true
+}
