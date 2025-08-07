@@ -227,5 +227,6 @@
   "diffEditor.renderSideBySide": true,
   "workbench.iconTheme": "material-icon-theme",
   "workbench.colorTheme": "Bearded Theme Vivid Purple",
-  "editor.formatOnSave": true
+  "editor.formatOnSave": true,
+  "explorer.compactFolders": false
 }
